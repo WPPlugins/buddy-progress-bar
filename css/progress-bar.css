@@ -1,0 +1,60 @@
+.bppp-stat {
+display:inline-block;
+	height:1em;   
+	width: auto;
+}
+
+.bppp-stat-title { 
+	display:inherit;
+    color:#aaa; 
+}
+
+.bppp-stat-title a{
+  text-decoration:none!important;
+}
+
+/*full width bar*/
+.bppp-bar{
+	display:inherit;
+    height:1em;
+    border:0.1em solid #ddd;
+    width:150px;
+	margin:0px auto;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */	
+}
+
+/* widget bar */
+.bppp-widget-bar{
+	display:inherit;
+    height:1em;
+    border:0.1em solid #ddd;
+    width:125px;
+	margin:0px auto;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */	
+}
+
+/*mask bar*/
+.bppp-bar-mask {
+    background-color:white;
+    float:right;
+    height:100%;    
+}
+
+.bppp-stat-percent{	
+	display:inherit;
+    font-size:0.8em;
+}

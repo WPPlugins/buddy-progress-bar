@@ -1,0 +1,555 @@
+# Copyright (C) 2016 Buddy Progress Bar
+# This file is distributed under the same license as the Buddy Progress Bar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddy Progress Bar 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buddy-progress-"
+"bar\n"
+"POT-Creation-Date: 2016-04-06 19:46:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/bppp-admin.php:87
+msgid "Profile Status"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:17
+msgctxt "Help screen"
+msgid "Introduction"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:21
+msgctxt "Help screen"
+msgid ""
+"Buddy Progress Bar plugin let you add a profile fields completion status in "
+"different places. Default display is the profile header. You can also "
+"activate the progression on login widget and/or members directory."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:22
+msgctxt "Help screen"
+msgid ""
+"Note that no bar will be displayed on the login widget or on members "
+"directory, but only a short title, an icon and user's progress percent. "
+"Title and icon are optionnal."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:23
+msgctxt "Help screen"
+msgid ""
+"Buddy Progress Bar comes also with his own widget, witch displays a progress "
+"bar and his own message, outside of the scope of the plugin settings "
+"(excepted percentage). Use it if you want to display user progression on "
+"your homepage, secondary blog or elsewhere different as profile header, "
+"login widget or members directory."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:24
+msgctxt "Help screen"
+msgid ""
+"Site admin will see each user progression percent on users admin list (or "
+"network users list in case of a multisite install) with the possibility to "
+"send them a personnal message if their profile is empty. In this case, a "
+"Contact User button is displayed. On click, the administrator will be "
+"redirected to his BuddyPress Compose Message page from where he can directly "
+"contact the member."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:25
+msgctxt "Help screen"
+msgid ""
+"Don't forget to click the Save Settings button at the bottom of the screen "
+"for new settings to take effect."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:51
+msgctxt "Help screen"
+msgid "Progress Bar on Profile"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:56
+msgctxt "Help screen"
+msgid "Default display on each profile header and tabs"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:57
+msgctxt "Help screen"
+msgid "Displays bar only on profile edit tab."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:58
+msgctxt "Help screen"
+msgid "No progress bar will be shown."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:60
+msgctxt "Help screen"
+msgid ""
+"The default display of the progress bar includes a title, a progress bar and "
+"a percentage value. If you select option 1 or 2, the title can be set in the "
+"Bar Titles section below."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:61
+msgctxt "Help screen"
+msgid ""
+"Note: the progress bar is only used on profiles and by the Progress Bar "
+"Widget. All other places use only an optionnal title and the percentage "
+"value."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:85
+msgctxt "Help screen"
+msgid "Other positions"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:90
+msgctxt "Help screen"
+msgid ""
+"Displays a progress information on BuddyPress Login Widget for the loggedin "
+"user. Ensure the widget - \"(BuddyPress) Log in\" - is active if you want to "
+"use this option. Leave unchecked if you don't want to use it."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:91
+msgctxt "Help screen"
+msgid ""
+"Displays a progress information on BuddyPress Members Directory. That's pure "
+"meta information and we don't want an extra template for this. Leave "
+"unchecked if you don't want to use it."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:116
+msgctxt "Help screen"
+msgid "Bar Titles"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:121
+msgctxt "Help screen"
+msgid ""
+"Enter a short introduction title to show before the bar or percentage value. "
+"Leave blank if you don't want to use it."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:147
+msgctxt "Help screen"
+msgid "Profile completed message"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:152
+msgctxt "Help screen"
+msgid ""
+"Enter a short introduction to show when a profile is completed to 100%. This "
+"will be displayed on any of the previous selected options and on Progress "
+"Bar widget. Leave blank if you don't want to use it."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:153
+msgctxt "Help screen"
+msgid ""
+"Display an award icon (dashicon) before the percent amount. Alternatively, "
+"you can leave the title blank and only check the icon."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:178
+msgctxt "Help screen"
+msgid "Profile is empty message"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:183
+msgctxt "Help screen"
+msgid ""
+"Enter a medium introduction to show when a profile is empty. This is "
+"intended to be shown by default on profile headers, but you can optionally "
+"add it to login widget or members directory. Leave blank if you don't want "
+"to use it."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:208
+msgctxt "Help screen"
+msgid "Points Shares"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:213
+msgctxt "Help screen"
+msgid ""
+"Here you can attribute points (from 0 to 10) for each existing xprofile "
+"field, including a custom avatar uploaded by the user. Blank value will be "
+"considered as zero point."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:214
+msgctxt "Help screen"
+msgid ""
+"The base field (Name) is ignored and never counted. If you have 10 custom "
+"fields and attribute 1 point to each, each field will be worth 10%. If the "
+"user fills only 4, his progress bar will show 40%."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:216
+msgctxt "Help screen"
+msgid ""
+"Note: when you change a point value, the progression for each user is "
+"automatically recalculated. In some cases, if you don't see the new value, "
+"simply reload the concerned profile page or close your browser session and "
+"start a new one."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:245
+msgctxt "Welcome screen title"
+msgid "Welcome on Buddy Progress Bar"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:246
+msgctxt "Welcome screen sub title"
+msgid "Thank you for using Buddy Progress Bar"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:250
+msgctxt "Welcome screen"
+msgid "Buddy Progress Bar at a glance"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:251
+msgctxt "Welcome screen"
+msgid ""
+"Buddy Progress Bar is the ideal tool to show the completion level of each "
+"members profile fields. By default, a connected member will see his "
+"progression on his profile page."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:252
+msgctxt "Welcome screen"
+msgid ""
+"The goal of Buddy Progress Bar is to kindly remember your community members "
+"to complete their profile in a clear, significant and non-obstrusive way. "
+"Not only when they visit their profile, but when they connect to your site. "
+"Buddy Progress Bar comes with over 10 options for accomplish this."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:253
+msgctxt "Welcome screen"
+msgid ""
+"Another cool way to inform your members would be to use the directory "
+"option. Ie. combining a relevant title with the award icon can be very "
+"efficient in some cases. "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:254
+msgctxt "Welcome screen"
+msgid ""
+"While managing the community members, the site admin will see a new profile "
+"status column in the list. The best overview to know who filled his profile, "
+"with a handy tool to send them a message if necessary."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:257
+msgctxt "Welcome screen img alt"
+msgid "The Buddy Profile Progression view"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:260
+msgctxt "Welcome screen"
+msgid "Buddy Progress Bar Display Options"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:262
+msgctxt "Welcome screen"
+msgid ""
+"On profile header display. Options are : on every profile tab, only on "
+"profile edit tab, none. "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:263
+msgctxt "Welcome screen"
+msgid "On login widget display. Option: on/off "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:264
+msgctxt "Welcome screen"
+msgid "On members directory display. Option: on/off. "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:265
+msgctxt "Welcome screen"
+msgid ""
+"Bar titles display. You can set a different title for each display option. "
+"Ie. title on directory can be different from title on login widget. "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:266
+msgctxt "Welcome screen"
+msgid ""
+"Profile is empty is a message box where you can briefly write something "
+"about profile to your members. This message is only displayed when the user "
+"has no percent value attached to his account or when this value is empty or "
+"equal to 0. This happens when the plugin is installed or later, when users "
+"ignore completely their profile fields. This message is diplayed by default "
+"on profile header and can be activated on login widget and members directory."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:267
+msgctxt "Welcome screen"
+msgid ""
+"Profile is completed and Show award icon. Once all fields are completed to "
+"100%, you can show a specific title or an award icon. Options are: title and "
+"icon, only title, only icon, none"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:268
+msgctxt "Welcome screen"
+msgid ""
+"Points shares let administrators attribute a point value for each existing "
+"xprofile field. So you can handle separately important and secondary fields."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:269
+msgctxt "Welcome screen"
+msgid ""
+"Avatar change, from default mytery man to a custom avatar, is also valuable "
+"by points"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:270
+msgctxt "Welcome screen"
+msgid ""
+"Buddy Progress Bar Widget: this feature let site admins the ability to show "
+"the progress bar on any widget area, so far a widget compatible theme is "
+"used. On a multisite install, the widget can by added to every secondary blog"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:271
+msgctxt "Welcome screen"
+msgid ""
+"Profile status on users management list. No setting here, except WordPress "
+"screen option. If a profile is empty, a clickable message icon is showing, "
+"else you will see the percentage."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:274
+msgctxt "Welcome screen"
+msgid "Buddy Progress Bar Settings"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:276
+msgctxt "Welcome screen"
+msgid ""
+"Click the Help tab in the top right corner of the settings screen to get "
+"more information for each setting."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:278
+msgctxt "Welcome screen"
+msgid "How to use Buddy Progress Bar options"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:280
+msgctxt "Welcome screen"
+msgid ""
+"This really depends on how you manage your community, according to the "
+"language and the theme you use. The plugin brings two types of information: "
+"one for users, ie. your profile is completed up to 30% and one for site "
+"admins to users: (ie. please, complete your profile). "
+msgstr ""
+
+#: includes/admin/bppp-screens.php:281
+msgctxt "Welcome screen"
+msgid ""
+"The progress bar appears only on profile headers and on the Buddy Progress "
+"Bar Widget. All other places, login widget and members directory show only "
+"progression information. At minimum a percentage, ie. (30%)"
+msgstr ""
+
+#: includes/admin/bppp-screens.php:282
+msgctxt "Welcome screen"
+msgid ""
+"For each place, you can set up a short title to introduce the bar or the "
+"percentage to your members. Two other options, allows you to enter a "
+"different text, when a profile reached 100% or when it is 0% percent or "
+"empty. In case of a completed profile, you have an icon option, so you don't "
+"need to use any title or message."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:283
+msgctxt "Welcome screen"
+msgid ""
+"To calculate the progression profile, the plugin list all your xprofile "
+"field and calculate the percentage in function of each point value you set "
+"up in the Point Share option. This option let you also give a value point "
+"for avatar changes."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:286
+msgctxt "Welcome screen"
+msgid ""
+"Thank you to G. Breant, author and creator of BuddyPress Profile Progression "
+"plugin, no more maintained since BP 1.7. Buddy Progress Bar is a fork of "
+"that work, partially rewriten and corrected, with much more options."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:287
+msgctxt "Welcome screen"
+msgid ""
+"A special great thank you to my friend Pascal for his time for debugging, "
+"help and encouragements."
+msgstr ""
+
+#: includes/admin/bppp-screens.php:291
+msgctxt "Welcome screen"
+msgid "Go to Progress Bar settings"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:71
+msgctxt "welcome screen"
+msgid "About Buddy Progress Bar"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:97
+msgid "Progress Bar on Profile"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:99
+msgid "When displaying a profile"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:102
+msgid "When editing a profile"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:105
+msgid "No auto embed"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:113
+msgid "Other positions"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:115
+msgid "On login widget"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:124
+msgid "On members directory"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:132
+msgid "Bar Titles"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:134
+msgid "progress bar title on profile (max char. 40)."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:142
+msgid "progress bar title on BuddyPress login widget (max char. 40)."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:150
+msgid "progress bar title on members directory (max char. 40)."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:157
+msgid "Profile is empty message"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:159
+msgid "message to show when profile is empty (max char. 100)."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:167
+msgid "Show this message on members directory"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:175
+msgid "Show this message on login widget"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:182
+msgid "Profile is completed message"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:184
+msgid "message to show once a profile is completed (max char. 40). "
+msgstr ""
+
+#: includes/admin/bppp-settings.php:192
+msgid "Show an award icon once a profile is completed."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:221
+msgid "Points Shares"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:223
+msgid "Attribute a number of points for each existing profile field."
+msgstr ""
+
+#: includes/admin/bppp-settings.php:228
+msgid "Field-ID"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:229
+msgid "Field name"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:230
+msgid "Current point"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:231
+msgid "New point"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:232
+msgid "% ratio"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:272
+msgid "Buddy Progress Bar Settings"
+msgstr ""
+
+#: includes/admin/bppp-settings.php:279
+msgid "Save settings"
+msgstr ""
+
+#: includes/bppp-functions.php:100
+msgid "Send a message to"
+msgstr ""
+
+#: includes/bppp-widget.php:19
+msgid "(Progress Bar) Profile progression"
+msgstr ""
+
+#: includes/bppp-widget.php:20
+msgid "Display profile progress bar"
+msgstr ""
+
+#: includes/bppp-widget.php:38
+msgid "Widget Title"
+msgstr ""
+
+#: includes/bppp-widget.php:43
+msgid "Message:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Buddy Progress Bar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://bp-fr.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add a progress bar which displays the percentage of profile fields datas "
+"filled by users."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "danbp"
+msgstr ""

@@ -1,0 +1,63 @@
+i.icon {
+	font-family: 'dashicons';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	line-height: 1;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*
+i.icon.bppp-icon-analytics:before{
+	content: "\f185";
+} */
+
+
+.bppp-badge {
+	padding-top: 142px;
+	height:150px;
+	width: 200px;
+	color: #333;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 -15px;
+	background: url('../images/bpb-badge.png') no-repeat;
+}
+
+.about-wrap .bppp-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+	body.rtl .about-wrap .bppp-badge {
+		right: auto;
+		left: 0;
+	}
+
+
+/* Ratio 2x */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.bppp-badge {
+		background-image: url('../images/bpb-badge.png');
+		background-size: 173px 194px;
+	}
+}
+
+#bppp-help-intro {
+	font-size: 12px;
+	padding-top: 10px;
+	background-color: #ffffcc;
+	padding: 3px 0 3px 5px;
+}
+
+#bppp-empty-profile-embed{
+width: 750px;
+}
